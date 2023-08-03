@@ -11,5 +11,7 @@ namespace cryspie.Model
         public string Login { get; set; }
         public string Password { get; set; }
         public PhoneNumber PhoneNumber { get; set; }
+        public long FamilyMemberId { get; set; }
+        public FamilyMember FamilyMember { get; set; }
     }
 }
